@@ -62,7 +62,7 @@ function countTime(){
     if(secondsCount/60<=9){
         str+="0";
     }
-    str+=(secondsCount/60).toFixed(0)+":";
+    str+=Math.floor((secondsCount/60))+":";
     if(secondsCount%60<=9){
         str+="0";
     }
