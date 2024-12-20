@@ -1,0 +1,17 @@
+*{
+    margin:0px;
+}
+#body{
+    background-color: gray;
+}
+#main{
+    font-size:44vh;
+    opacity: 80%;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    font-family: 'Montserrat', Courier, monospace;
+    font-weight:900;
+    color:white;
+}
