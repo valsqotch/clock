@@ -8,11 +8,11 @@ clearInterval(tm);
 function updateTime(){
     let t = new Date;
     let str = ""
-    if(t.getHours()<9){
+    if(t.getHours()<=9){
         str+="0";
     }
     str+=(t.getHours())+":";
-    if(t.getMinutes()<9){
+    if(t.getMinutes()<=9){
         str+="0";
     }
     str+=(t.getMinutes());
